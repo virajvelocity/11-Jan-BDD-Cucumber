@@ -1,7 +1,0 @@
-Only Automation 11 Jan BDD Cucumber
-
-public void newbatch()
-{
-  System.out.println("good Morning");
-
-}
