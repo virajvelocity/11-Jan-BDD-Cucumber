@@ -43,7 +43,7 @@ public class Searchpage
 		Searchbtn.click();
 	}
 	
-	public ArrayList<String> verifysearchedproduct() 
+	public ArrayList<String> verifysearchedproduct() throws InterruptedException 
 	{	
 		String product1=MB.getText();  //MacBook
 		String product2=MBA.getText();  //MacBook Air
@@ -52,8 +52,11 @@ public class Searchpage
 		ArrayList<String> al=new ArrayList<String>();
 		
 		   al.add(product1);
+		   Thread.sleep(2000);
 		   al.add(product2);
+		   Thread.sleep(2000);
 		   al.add(product3);
+		   Thread.sleep(2000);
 		   
 		   return al;  ////MacBook  ////MacBook Air  //MacBook Pro
 	}

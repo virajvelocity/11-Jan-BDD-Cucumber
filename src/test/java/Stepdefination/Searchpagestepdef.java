@@ -39,6 +39,7 @@ public class Searchpagestepdef
 		Assert.assertEquals(ActualProduct2, ExpectedProduct2);       
 		 		Thread.sleep(2000);
 		Assert.assertEquals(ActualProduct3, ExpectedProduct3);   
+		   Thread.sleep(2000);
 		
 	}
 
