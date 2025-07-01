@@ -30,8 +30,9 @@ public class Homepagestepdef
 	}
 
 	@Then("shopping cart icon should be displayed")
-	public void shopping_cart_icon_should_be_displayed() 
+	public void shopping_cart_icon_should_be_displayed() throws InterruptedException 
 	{
+		Thread.sleep(2000);
 	   boolean icon=hp.verifyshoppingcart();  //true  false
 	   Assert.assertTrue(icon);
 	}
