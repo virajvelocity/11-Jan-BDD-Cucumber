@@ -1,0 +1,5 @@
+# Created at 2025-06-30T09:19:21.639
+Boot Manifest-JAR contains absolute paths in classpath 'D:\BDDCucumber\11_Jan_BDDCucumber\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
