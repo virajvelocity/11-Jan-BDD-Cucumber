@@ -29,8 +29,11 @@ public class Searchpagestepdef
 	{
 		ArrayList<String> Products=Sp.verifysearchedproduct();  //MacBook  ////MacBook Air  //MacBook Pro
 		
+		   			Thread.sleep(2000);
 		         String  ActualProduct1=Products.get(0);  //MacBook
+		         Thread.sleep(2000);
 		         String  ActualProduct2=Products.get(1);  //MacBook Air  
+		         Thread.sleep(2000);
 		         String  ActualProduct3=Products.get(2);  //MacBook Pro
 		         
 		         Thread.sleep(2000);
